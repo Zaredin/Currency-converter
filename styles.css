@@ -1,0 +1,39 @@
+QWidget {
+    background-color: #333;
+}
+
+QLabel {
+    font-size: 14px;
+    color: #fff;
+}
+
+QLineEdit {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+QPushButton {
+    padding: 20px;
+    font-size: 14px;
+    background-color: #222;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    width: 100px;
+    height: 50px;
+}
+
+QPushButton:hover {
+    background-color: #555;
+}
+
+QComboBox {
+    border: none;  /* Hides the combo box border */
+    background-color: transparent;  /* Hides the combo box background */
+}
+
+QComboBox::drop-down {
+    border: none;  /* Hides the drop-down arrow */
+}
